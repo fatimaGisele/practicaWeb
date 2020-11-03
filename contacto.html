@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Practico N°4</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.jpg" alt="logo" class="logo" />
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contactenos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contactenos</h2>
+      <form>
+        <div>
+          <label for="nombre">Nombre:</label><br />
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Escriba su nombre"
+            required
+          /><br />
+          <label for="apellido">apellido:</label><br />
+          <input
+            type="text"
+            id="apellido"
+            placeholder="Escriba su apellido"
+          /><br />
+          <label for="mail">Mail:</label><br />
+          <input
+            type="email"
+            id="mail"
+            placeholder="nombre@mail.com"
+            required
+          /><br />
+          <label for="tel">Telefono:</label><br />
+          <input type="tel" id="tel" placeholder="123-456" /><br />
+        </div>
+        <div>
+          <label for="comentario">Escriba su comentario:</label><br />
+          <textarea
+            id="comentario"
+            placeholder="Escriba aqui"
+            rows="10"
+            cols="30"
+          ></textarea
+          ><br />
+          <input type="submit" value="Enviar" class="submit" />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <span>Altamirano Fatima</span>
+      <a href="https://www.facebook.com/" target="new">Facebook</a>
+      <a href="https://www.instagram.com" target="new">Instagram</a>
+      <a href="https://www.twitter.com" target="new">Twitter</a>
+    </footer>
+  </body>
+</html>
